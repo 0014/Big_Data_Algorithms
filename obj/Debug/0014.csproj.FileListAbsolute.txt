@@ -1,0 +1,5 @@
+C:\Users\arif.gencosmanoglu\Documents\EnteringC#\Own_Library\0014\0014\bin\Debug\0014.dll
+C:\Users\arif.gencosmanoglu\Documents\EnteringC#\Own_Library\0014\0014\bin\Debug\0014.pdb
+C:\Users\arif.gencosmanoglu\Documents\EnteringC#\Own_Library\0014\0014\obj\Debug\0014.csprojResolveAssemblyReference.cache
+C:\Users\arif.gencosmanoglu\Documents\EnteringC#\Own_Library\0014\0014\obj\Debug\0014.dll
+C:\Users\arif.gencosmanoglu\Documents\EnteringC#\Own_Library\0014\0014\obj\Debug\0014.pdb
