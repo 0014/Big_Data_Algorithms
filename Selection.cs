@@ -1,9 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 namespace _0014
 {
     public class Selection
@@ -23,13 +17,10 @@ namespace _0014
             var max1 = FindMax_DC(a, s, n / 2);
             var max2 = FindMax_DC(a, n/2 + s, n - n/2);
 
-            if (max1 > max2)
-                return max1;
-            else 
-                return max2;
+            return max1 > max2 ? max1 : max2;
         }
 
-    #endregion
+        #endregion
 
         //O(logn)
         #region BinarySearch
@@ -42,10 +33,8 @@ namespace _0014
 
             if (key == a[mid])
                 return mid;
-            if (key < a[mid])
-                return BinarySearch(a, startIndex, mid - 1, key);
-            
-            return BinarySearch(a, mid + 1, endIndex, key);
+
+            return key < a[mid] ? BinarySearch(a, startIndex, mid - 1, key) : BinarySearch(a, mid + 1, endIndex, key);
         }
 
         #endregion

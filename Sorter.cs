@@ -1,11 +1,8 @@
-using System.Security.Policy;
-
 namespace _0014
 {
     public class Sorter
     {
         // O(n^2)
-
         #region Insertion
 
         public void Insertion(int[] a)
@@ -32,10 +29,9 @@ namespace _0014
         #endregion
 
         // O(nlogn)
-
         #region QucikSort
 
-        public void QuickSort(int[] a, int left, int right)
+        public static void QuickSort(int[] a, int left, int right)
         {
             if (left >= right) return;
 
@@ -193,7 +189,6 @@ namespace _0014
         #endregion
 
         // O(n)
-
         #region BucketSorting
 
 
@@ -206,12 +201,13 @@ namespace _0014
 
         #endregion
 
-        
+        #region Helper Functions
         private static void Swap(int[] a, int index1, int index2)
         {
             var temp = a[index1];
             a[index1] = a[index2];
             a[index2] = temp;
         }
+        #endregion
     }
 }
